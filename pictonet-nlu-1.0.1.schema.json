@@ -14,8 +14,27 @@
     },
     "lang": {
       "type": "string",
-      "description": "IETF BCP-47 language tag (e.g., en, en-NZ, es-CL).",
+      "description": "IETF BCP-47 language tag (e.g., en-GB, es-419).",
       "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Thematic domain inferred from the utterance.",
+      "enum": [
+        "transporte",
+        "salud",
+        "alimentación",
+        "educación",
+        "vida_cotidiana",
+        "trabajo",
+        "emociones",
+        "tiempo_libre",
+        "dinero",
+        "seguridad",
+        "comunicación",
+        "lugar",
+        "trámites"
+      ]
     },
     "metadata": {
       "type": "object",
@@ -102,7 +121,11 @@
         "frame_name": {
           "type": "string",
           "minLength": 1,
-          "description": "Canonical FrameNet-like label (e.g., Directed_action, Desire)."
+          "description": "Canonical FrameNet-like label in English (e.g., Directed_action, Desire)."
+        },
+        "frame_label": {
+          "type": "string",
+          "description": "Translated label for UI display in the utterance language (e.g., 'Costo' for 'Expensiveness')."
         },
         "lexical_unit": {
           "type": "string",
