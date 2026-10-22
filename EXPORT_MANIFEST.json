@@ -1,0 +1,186 @@
+{
+  "formatVersion": 1,
+  "product": "@mediafranca/pictos-nlu-schema",
+  "version": "1.1.0",
+  "mode": "committed",
+  "source": {
+    "repository": "https://github.com/hspencer/pictos-net",
+    "commit": "f0f9fd8a6d02bf64c3b7a35750746471fb801afb",
+    "path": "schemas/pictos-nlu-schema",
+    "dirty": false
+  },
+  "contentHash": "212870bd15788a6c56efd770e450a1c9804d7ed2f190742318eb90d6e0010c26",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "8a50e9be3d21be39c31d65a0baa2bf5ea2b7acbf5f05004265778c8a207f0d30",
+      "size": 474,
+      "executable": false
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bdacbadbfb39cfa0798700d12aa4db61be1fc44843ebaf772c9b2752e6d44294",
+      "size": 117,
+      "executable": false
+    },
+    {
+      "path": "FROZEN_RELEASES.json",
+      "sha256": "3721600abcf86a1ff198d94412461baf84c54f053b4cc49aba0f8963102509e3",
+      "size": 107,
+      "executable": false
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bae5ccc863235f984a52c07d011e48a86c0c12f923be2dedd8624c7abdc22c6c",
+      "size": 20132,
+      "executable": false
+    },
+    {
+      "path": "README.md",
+      "sha256": "5ff1d939904ac60882aaad95f2179ea6bc6afeb258bad2fb67e8821d1185abd8",
+      "size": 8816,
+      "executable": false
+    },
+    {
+      "path": "index.js",
+      "sha256": "88f8de30c8d4584937b19be9cf2a2e3d21473a1795a7ade193cda1b0c4c2b76f",
+      "size": 1416,
+      "executable": false
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "2a02b6a00cd6496e9aea40470a088ef1ed5cf97a2217d11d02986e4924782041",
+      "size": 2941,
+      "executable": false
+    },
+    {
+      "path": "package.json",
+      "sha256": "da65f737707101147ccf87819433514f8febdcddbf7dc6eb493cfcc59c332f80",
+      "size": 822,
+      "executable": false
+    },
+    {
+      "path": "pictonet-nlu-1.0.1.schema.json",
+      "sha256": "e5747f457da07431beabb68d0ff6141a3ba3f24520d4b9c2035883380bc6c018",
+      "size": 7919,
+      "executable": false
+    },
+    {
+      "path": "pictonet-nlu-1.1.0.schema.json",
+      "sha256": "d5b03b61b6988148353f5d9ca7b2e9ac0dea1c0e163906476a606d8cac26fcfe",
+      "size": 9021,
+      "executable": false
+    },
+    {
+      "path": "pictonet-nlu-generation-1.1.0.schema.json",
+      "sha256": "fccc9c582d1eb1c25ab464ee190441921eedf51ac7b9529412f876f83de8e847",
+      "size": 8962,
+      "executable": false
+    },
+    {
+      "path": "scripts/build-generation-profile.js",
+      "sha256": "cd19299c61c83d34955f9763707059e5bfdf0fac4db835eefe33612f594353f6",
+      "size": 332,
+      "executable": false
+    },
+    {
+      "path": "scripts/build-validators.js",
+      "sha256": "9d4f604144c2d6a0d36f07d74943ed62cc4d5a4ec3cd3566802582beccfdba79",
+      "size": 440,
+      "executable": false
+    },
+    {
+      "path": "scripts/generation-profile.js",
+      "sha256": "accf5981c2e67070bf71cd28dd511a4e1eee5168b4f592aa251b267ba4a843d2",
+      "size": 1518,
+      "executable": false
+    },
+    {
+      "path": "scripts/standalone-code.js",
+      "sha256": "4811c66435a848a166263f98db2a1e88c0a1010c46a7d259abbad003f5c62711",
+      "size": 2574,
+      "executable": false
+    },
+    {
+      "path": "scripts/validate-one.js",
+      "sha256": "5fc040a5886f27eda7ad57334fe29fb1f2b5a6569ca0d3d3f510f1fb3c178e8e",
+      "size": 734,
+      "executable": false
+    },
+    {
+      "path": "test-runner.js",
+      "sha256": "19289cf2b74375875244b641c4d7ee0493e128ded57c9ff5c893b64918a1f176",
+      "size": 2162,
+      "executable": false
+    },
+    {
+      "path": "tests/contracts.test.mjs",
+      "sha256": "9c0666669b32f6cc2a3508321b613c3ab7aa47e42a30c44b0911c4b05025fcc6",
+      "size": 2903,
+      "executable": false
+    },
+    {
+      "path": "tests/generation/valid.json",
+      "sha256": "d4e17a50f47ff0eaa0c1ec06fc750c205bf8d7d55fdb5da8504f270953de3716",
+      "size": 873,
+      "executable": false
+    },
+    {
+      "path": "tests/invalid/01_missing_required.json",
+      "sha256": "58854489d7cbe62b18aad88423fb09f37dcf85e849fdb0d60755486d9a899fd5",
+      "size": 127,
+      "executable": false
+    },
+    {
+      "path": "tests/invalid/02_top_level_duplicates.json",
+      "sha256": "1123688d343fd6dc2eedb0c7ecbd300b822bfd959dde74f1b4d9897db87eadd9",
+      "size": 497,
+      "executable": false
+    },
+    {
+      "path": "tests/invalid/03_wrong_lang_tag.json",
+      "sha256": "9fa110ad9870b8b5b482a81acc086f97b493039041cd566c9afe9e7f6b71eea8",
+      "size": 380,
+      "executable": false
+    },
+    {
+      "path": "tests/invalid/04_bad_enum_value.json",
+      "sha256": "eb5997fa29374268fe800c301aaa748381b7d51a4561c525b5eddfd1a598203a",
+      "size": 426,
+      "executable": false
+    },
+    {
+      "path": "tests/valid/brush_teeth.json",
+      "sha256": "43e33eaa83a67d103d2a2aabbde395f208eba7364084e21eb9e714f4d7d8409f",
+      "size": 721,
+      "executable": false
+    },
+    {
+      "path": "tests/valid/dont_touch_stove.json",
+      "sha256": "7a41bf08b8b6c8c9cd14c138f69782a932c803f83888e3524d40024c11240bd6",
+      "size": 1742,
+      "executable": false
+    },
+    {
+      "path": "tests/valid/make_bed.json",
+      "sha256": "b7bc29ca1c2a9d4a9db0292890498ff8471793080c0809f9946718e0157ff1bd",
+      "size": 734,
+      "executable": false
+    },
+    {
+      "path": "tests/valid/wash_hands.json",
+      "sha256": "f1250e237231af4ab50b9ef6ee3f92a41729831815a306f7528051eafdee8257",
+      "size": 1009,
+      "executable": false
+    },
+    {
+      "path": "validators.js",
+      "sha256": "72dde2a629154596f93fe400de2068fa63ebcf837329520aeef3003e89a64bce",
+      "size": 100402,
+      "executable": false
+    }
+  ],
+  "validation": "not-run",
+  "release": false,
+  "publication": "requires-separate-approval"
+}
