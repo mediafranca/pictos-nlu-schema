@@ -5,11 +5,11 @@
   "mode": "committed",
   "source": {
     "repository": "https://github.com/hspencer/pictos-net",
-    "commit": "f0f9fd8a6d02bf64c3b7a35750746471fb801afb",
+    "commit": "3945e2a45dc3e9cd93f23038a968b7d3cd55ec77",
     "path": "schemas/pictos-nlu-schema",
     "dirty": false
   },
-  "contentHash": "212870bd15788a6c56efd770e450a1c9804d7ed2f190742318eb90d6e0010c26",
+  "contentHash": "deaa72f34fffa8efd2fe1e3c5a06197b9cc17def20f124118d79844bfa731708",
   "files": [
     {
       "path": ".github/workflows/validate.yml",
@@ -37,8 +37,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "5ff1d939904ac60882aaad95f2179ea6bc6afeb258bad2fb67e8821d1185abd8",
-      "size": 8816,
+      "sha256": "6c9dc253753f3ace62f531534630890ef44b4d473d8cd587e8f09c64f2cec0f3",
+      "size": 8831,
       "executable": false
     },
     {
